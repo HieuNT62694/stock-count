@@ -18,7 +18,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">8</stringProp>
+        <stringProp name="ThreadGroup.num_threads">2</stringProp>
         <stringProp name="ThreadGroup.ramp_time">0</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
         <stringProp name="ThreadGroup.duration">3600</stringProp>
@@ -61,7 +61,7 @@
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="SO_ITEMS" enabled="true">
           <stringProp name="TestPlan.comments">so_item</stringProp>
-          <stringProp name="filename">/Users/hieuntse62694/Desktop/LoadTest/DATA_LOAD-TEST-2-2-2.csv</stringProp>
+          <stringProp name="filename">/stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv</stringProp>
           <stringProp name="fileEncoding">UTF-8</stringProp>
           <stringProp name="variableNames">matrn,plant,quantity,batch,lgort,custId</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -120,7 +120,7 @@
             </elementProp>
             <elementProp name="" elementType="Header">
               <stringProp name="Header.name">Authorization</stringProp>
-              <stringProp name="Header.value">eyJraWQiOiJSNGo4RnFXaDNmSk1pU1F6REp2OU02STM3eFwvNkQwZTJCRldFXC9pem5kRlE9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoiWVEyYlhCeTRKNkFIUFoyN3hQZnQwZyIsInN1YiI6ImQ1ODY4MjNlLTM1Y2EtNDJlMi04MGIxLWQzOWU0YzBmMDhiNSIsImNvZ25pdG86Z3JvdXBzIjpbImFwLXNvdXRoZWFzdC0xX2xiNnN0MlM1bl9QTkotU2lnbkluIl0sImN1c3RvbTplbXBpZCI6IjE5ODkyIiwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoZWFzdC0xLmFtYXpvbmF3cy5jb21cL2FwLXNvdXRoZWFzdC0xX2xiNnN0MlM1biIsImNvZ25pdG86dXNlcm5hbWUiOiJQTkotU2lnbkluX3BodW9uZy5udHZAcG5qLmNvbS52biIsIm5vbmNlIjoiMkx5R0RhOE9uQnhOOG43akFabWI4c1NxbkI3X0RCZzZjNmQ5Zi1QejJPblNFcG16WUQ1cjNYemNuWUo1blJVQmY1OExIUUp4MDdVZkFUbVNDQ0QybnZuWnU1cjFNNzkyT05mR0hzQmlNbVFOYjE5OV90djdxLXV2eUxVb0JhUUJWbmtjMkNTZG9sb1AwNDhzNDN6Vlp3Y1huV3ZQT05US3d4ZDF2ZURsb3B3IiwiY3VzdG9tOmNvbXBhbnluYW1lIjoiUE5KIiwiY3VzdG9tOmFkLWdyb3VwIjoiW2RiZWFjZmFhLWJlNmMtNDQ2OS04NjIzLTViNzI0NDIwMTZkNSwgZDQxM2NlZGUtYzc1MC00YzYwLTgwMDEtZWRkZDE2ZjM0MTNmLCBkNjU5MjUzZS1lOTZmLTRmNGEtOTJiNi1jZDM3NDc0NmE4MjksIGQyY2FhYTJmLTU5N2UtNDZkOC1hNzYyLWJjZDJiY2QzNmMzZCwgMjM2ZDkxYzEtYTViMC00YzM3LTllYzItZDFiNTcyMGM5ZGQxLCAwMGJlNDE0Mi0zNjY5LTRmYjAtYjk1OS03ODFjZTQ2NzNiMmYsIGI2ZjJlYzY4LWRlZmItNDc2Ni04YjM5LTk0MGRhZjgyN2NjMywgZjhkYjFiOTktMDgwNy00NWVhLWI2NDEtYzE1MGI4MDlhODEwLCBkZGYyNjIyZS02MjgzLTQwMTEtOTBlMC01NDZhYjQ4YzhkNzIsIGFiZTliMWJlLTg4YWYtNDhlZi04NDBkLWE1OWQwYjViOThkOCwgOGZjZTBiYjItZGE4NS00ODIwLWJlZDYtZTUwZmY0Yzc2Y2M4LCA0ZmJhMDViNS05NjUyLTQ3ZmEtODE1NC04NmU1Y2MzMTU1YmEsIDI5OWMxZDZjLWE1ZGEtNGRiZi04NzM5LTY5OTBjOTFmNmE3ZF0iLCJhdWQiOiI0cjdiNm8zcmg2NDY0czFkMWluMGhlZGZrYSIsImlkZW50aXRpZXMiOlt7InVzZXJJZCI6InBodW9uZy5udHZAcG5qLmNvbS52biIsInByb3ZpZGVyTmFtZSI6IlBOSi1TaWduSW4iLCJwcm92aWRlclR5cGUiOiJTQU1MIiwiaXNzdWVyIjoiaHR0cHM6XC9cL3N0cy53aW5kb3dzLm5ldFwvNmVhODM4ZjAtZjUyOS00NTVlLTk3MzgtMTQ3MDYwOTkwYjU1XC8iLCJwcmltYXJ5IjoidHJ1ZSIsImRhdGVDcmVhdGVkIjoiMTYxNTQ1NjA0NjA1MCJ9XSwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2MjM3MjU1NDgsImV4cCI6MTYyMzgxMTk0OCwiaWF0IjoxNjIzNzI1NTQ4LCJlbWFpbCI6InBodW9uZy5udHZAcG5qLmNvbS52biJ9.DDKm5PLoJAVmIicy2pxVURHJk4iA7Yv9WvP-48dLRTQLyV7YX0NpNnIzaHsYNBmYx_p1WeCHZQuAWMIuViTD-twGlc0JKOlVw3rUscBtHiCqEpCE7symxnc18un6PTvKysLcJm1Yw4UolPm0NbcuEcD0xtNKcjp_eROnmgdaQChzQFWAynD-0P6uUXYNxGgAdEHBvmNDo2hX1xjo1PpNYszwJdJDtDHaRI99W3jwG7HQop5IF4fh_5HnZYqXN27HszjTOgAtidPFmPh-G_9zyzBXf17e6ITYBMQXx8rfRmINRRY4dGzUwOg92RJIpdXkBzihbz8nUCFShrD7yL3FWg</stringProp>
+              <stringProp name="Header.value">eyJraWQiOiJSNGo4RnFXaDNmSk1pU1F6REp2OU02STM3eFwvNkQwZTJCRldFXC9pem5kRlE9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoieW5lakNUUFVlUzBVM2UwTlJnWWpKZyIsInN1YiI6ImQ1ODY4MjNlLTM1Y2EtNDJlMi04MGIxLWQzOWU0YzBmMDhiNSIsImNvZ25pdG86Z3JvdXBzIjpbImFwLXNvdXRoZWFzdC0xX2xiNnN0MlM1bl9QTkotU2lnbkluIl0sImN1c3RvbTplbXBpZCI6IjE5ODkyIiwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoZWFzdC0xLmFtYXpvbmF3cy5jb21cL2FwLXNvdXRoZWFzdC0xX2xiNnN0MlM1biIsImNvZ25pdG86dXNlcm5hbWUiOiJQTkotU2lnbkluX3BodW9uZy5udHZAcG5qLmNvbS52biIsIm5vbmNlIjoia2FhUTRuVk5qR1ZaZ0xQUnhpSmlVOUNjZmhfWmdxMndlZnAwLVU0eFg5WkNIY1NkRkozQlY4SVByYnREcnNtYzk2dmRXRXFTMzFXeENXM2ZqNzVRX1hKdGp6LW9ja05hS3Q5bTVEWW5zOXZYZnN5N3BiNTFpWXZMZlNzVHUtMmJlNV9YVXBlV3JWd3FkLWdxelg5djJIUkJmQnlSUWtoZHFDOTlRaEd5NUlVIiwiY3VzdG9tOmNvbXBhbnluYW1lIjoiUE5KIiwiY3VzdG9tOmFkLWdyb3VwIjoiW2RiZWFjZmFhLWJlNmMtNDQ2OS04NjIzLTViNzI0NDIwMTZkNSwgZDQxM2NlZGUtYzc1MC00YzYwLTgwMDEtZWRkZDE2ZjM0MTNmLCBkNjU5MjUzZS1lOTZmLTRmNGEtOTJiNi1jZDM3NDc0NmE4MjksIGQyY2FhYTJmLTU5N2UtNDZkOC1hNzYyLWJjZDJiY2QzNmMzZCwgMjM2ZDkxYzEtYTViMC00YzM3LTllYzItZDFiNTcyMGM5ZGQxLCAwMGJlNDE0Mi0zNjY5LTRmYjAtYjk1OS03ODFjZTQ2NzNiMmYsIGI2ZjJlYzY4LWRlZmItNDc2Ni04YjM5LTk0MGRhZjgyN2NjMywgZjhkYjFiOTktMDgwNy00NWVhLWI2NDEtYzE1MGI4MDlhODEwLCBkZGYyNjIyZS02MjgzLTQwMTEtOTBlMC01NDZhYjQ4YzhkNzIsIGFiZTliMWJlLTg4YWYtNDhlZi04NDBkLWE1OWQwYjViOThkOCwgOGZjZTBiYjItZGE4NS00ODIwLWJlZDYtZTUwZmY0Yzc2Y2M4LCA0ZmJhMDViNS05NjUyLTQ3ZmEtODE1NC04NmU1Y2MzMTU1YmEsIDI5OWMxZDZjLWE1ZGEtNGRiZi04NzM5LTY5OTBjOTFmNmE3ZF0iLCJhdWQiOiI0cjdiNm8zcmg2NDY0czFkMWluMGhlZGZrYSIsImlkZW50aXRpZXMiOlt7InVzZXJJZCI6InBodW9uZy5udHZAcG5qLmNvbS52biIsInByb3ZpZGVyTmFtZSI6IlBOSi1TaWduSW4iLCJwcm92aWRlclR5cGUiOiJTQU1MIiwiaXNzdWVyIjoiaHR0cHM6XC9cL3N0cy53aW5kb3dzLm5ldFwvNmVhODM4ZjAtZjUyOS00NTVlLTk3MzgtMTQ3MDYwOTkwYjU1XC8iLCJwcmltYXJ5IjoidHJ1ZSIsImRhdGVDcmVhdGVkIjoiMTYxNTQ1NjA0NjA1MCJ9XSwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2MjM4MzI5NDgsImV4cCI6MTYyMzkxOTM0OCwiaWF0IjoxNjIzODMyOTQ4LCJlbWFpbCI6InBodW9uZy5udHZAcG5qLmNvbS52biJ9.RtDQBrWNaCuhvT8Unhyfd53rE34uNdIp49P3NhGz1EL-Q2YEJwvaJguv-jxXlEoiMxcLW0ihYHWabbg09L5NoeAM9qvgq5yvyt6RMv4owfj7Xh4OsYemUjuuCwsThXGMktAcTammQI-wMiwdUxs75GqsFaSCBIzdsqvQ2StjJ1gzpyANCBMGtC5_-hgbY2bxGjuBbnuR6qneJqj8V8dL22cqtTjliAKpyS4vUDKSrqen0qbqPbgKLoZlXViFNgY3mP0NO_hnR_9xCM7DT7qZANpEqtkDDAb4AU5mTrZbqg0RgcD6OjOQfQvJ5P1FBSEf373IgUWxRNwoFp_uywSYtQ</stringProp>
             </elementProp>
             <elementProp name="" elementType="Header">
               <stringProp name="Header.name">signature</stringProp>
@@ -335,7 +335,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">/Users/hieuntse62694/Desktop/Report Loadtest/createSO-FULL.jtl</stringProp>
+          <stringProp name="filename">/stock-count/LoadTest/createSO-FULL.jtl</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
@@ -375,7 +375,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">/Users/hieuntse62694/Desktop/Report Loadtest/createSO-FULL.jtl</stringProp>
+          <stringProp name="filename">/stock-count/LoadTest/createSO-FULL.jtl</stringProp>
         </ResultCollector>
         <hashTree/>
         <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="false">
