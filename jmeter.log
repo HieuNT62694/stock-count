@@ -1,0 +1,1569 @@
+2021-06-17 13:57:50,649 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-06-17 13:57:50,669 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.4.1/libexec/bin/user.properties
+2021-06-17 13:57:50,669 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.4.1/libexec/bin/system.properties
+2021-06-17 13:57:50,675 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2021-06-17 13:57:50,675 INFO o.a.j.JMeter: Version 5.4.1
+2021-06-17 13:57:50,675 INFO o.a.j.JMeter: java.version=16.0.1
+2021-06-17 13:57:50,675 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2021-06-17 13:57:50,675 INFO o.a.j.JMeter: os.name=Mac OS X
+2021-06-17 13:57:50,675 INFO o.a.j.JMeter: os.arch=x86_64
+2021-06-17 13:57:50,675 INFO o.a.j.JMeter: os.version=12.0
+2021-06-17 13:57:50,675 INFO o.a.j.JMeter: file.encoding=UTF-8
+2021-06-17 13:57:50,675 INFO o.a.j.JMeter: java.awt.headless=null
+2021-06-17 13:57:50,675 INFO o.a.j.JMeter: Max memory     =1073741824
+2021-06-17 13:57:50,675 INFO o.a.j.JMeter: Available Processors =16
+2021-06-17 13:57:50,683 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-06-17 13:57:50,683 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-06-17 13:57:50,684 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.4.1/libexec
+2021-06-17 13:57:50,684 INFO o.a.j.JMeter: user.dir  =/Users/hieuntse62694/Downloads/Archive
+2021-06-17 13:57:50,684 INFO o.a.j.JMeter: PWD       =/Users/hieuntse62694/Downloads/Archive
+2021-06-17 13:57:50,685 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: MacBook-Pro-Hieu.local FullName: localhost
+2021-06-17 13:57:54,403 INFO o.a.j.JMeter: Setting LAF to: laf:com.apple.laf.AquaLookAndFeel
+2021-06-17 13:57:55,388 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2021-06-17 13:57:56,379 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=mac_os_x-d798008244e491799ed4b9afa0dabca4-gui
+2021-06-17 13:57:58,542 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=1.6, jmeter-core=5.4.1, jmeter-ftp=5.4.1, jmeter-http=5.4.1, jmeter-jdbc=5.4.1, jmeter-jms=5.4.1, jmeter-junit=5.4.1, jmeter-java=5.4.1, jmeter-ldap=5.4.1, jmeter-mail=5.4.1, jmeter-mongodb=5.4.1, jmeter-native=5.4.1, jmeter-tcp=5.4.1, jmeter-components=5.4.1]
+2021-06-17 13:58:06,390 INFO o.a.j.g.a.Load: Merging file: /Users/hieuntse62694/Downloads/Archive/LoadTest/SO_ITEMS.jmx
+2021-06-17 13:58:06,511 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-06-17 13:58:06,517 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-06-17 13:58:06,518 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-06-17 13:58:06,518 INFO o.a.j.s.SaveService: Loading file: /Users/hieuntse62694/Downloads/Archive/LoadTest/SO_ITEMS.jmx
+2021-06-17 13:58:06,611 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-06-17 13:58:06,611 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-06-17 13:58:06,611 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-06-17 13:58:06,611 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-06-17 13:58:06,612 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2021-06-17 13:58:06,612 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2021-06-17 13:58:06,780 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2021-06-17 13:58:06,780 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2021-06-17 13:58:06,781 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2021-06-17 13:58:06,781 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2021-06-17 13:58:06,907 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2021-06-17 13:58:25,605 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-06-17 13:58:25,605 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-06-17 13:58:25,606 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-06-17 13:58:25,606 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2021-06-17 13:58:25,606 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2021-06-17 13:58:25,630 INFO o.a.j.s.FileServer: Default base='/Users/hieuntse62694/Downloads/Archive'
+2021-06-17 13:58:25,630 WARN o.a.j.r.ResultCollector: Error creating directories for /stock-count/LoadTest
+2021-06-17 13:58:25,630 WARN o.a.j.r.ResultCollector: Error creating directories for /stock-count/LoadTest
+2021-06-17 13:58:25,630 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2021-06-17 13:58:25,663 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2021-06-17 13:58:25,664 INFO o.a.j.e.StandardJMeterEngine: Starting 16 threads for group Thread Group.
+2021-06-17 13:58:25,664 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-06-17 13:58:25,664 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=16 ramp-up=0 delayedStart=false
+2021-06-17 13:58:25,668 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2021-06-17 13:58:25,668 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2021-06-17 13:58:25,668 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2021-06-17 13:58:25,669 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2021-06-17 13:58:25,669 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2021-06-17 13:58:25,669 INFO o.a.j.s.FileServer: Stored: /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+2021-06-17 13:58:25,670 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2021-06-17 13:58:25,671 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2021-06-17 13:58:25,671 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2021-06-17 13:58:25,672 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2021-06-17 13:58:25,672 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2021-06-17 13:58:25,673 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2021-06-17 13:58:25,673 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2021-06-17 13:58:25,674 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2021-06-17 13:58:25,675 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2021-06-17 13:58:25,670 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:25,671 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:25,670 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:25,671 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:25,674 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:25,672 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:25,673 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:25,670 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:25,676 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2021-06-17 13:58:25,676 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:25,676 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2021-06-17 13:58:25,670 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:25,676 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2021-06-17 13:58:25,675 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:25,676 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2021-06-17 13:58:25,676 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2021-06-17 13:58:25,670 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:25,676 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2021-06-17 13:58:25,670 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:25,676 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-06-17 13:58:25,673 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:25,676 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2021-06-17 13:58:25,677 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-06-17 13:58:25,677 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2021-06-17 13:58:25,676 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2021-06-17 13:58:25,677 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2021-06-17 13:58:25,676 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2021-06-17 13:58:25,676 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2021-06-17 13:58:25,677 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2021-06-17 13:58:25,677 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2021-06-17 13:58:25,677 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2021-06-17 13:58:25,677 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:25,677 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2021-06-17 13:58:25,678 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2021-06-17 13:58:25,679 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:25,679 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2021-06-17 13:58:25,679 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-06-17 13:58:25,679 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2021-06-17 13:58:35,534 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-06-17 13:58:35,535 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-06-17 13:58:35,536 WARN o.a.j.r.ResultCollector: Error creating directories for /stock-count/LoadTest
+2021-06-17 13:58:35,536 WARN o.a.j.r.ResultCollector: Error creating directories for /stock-count/LoadTest
+2021-06-17 13:58:35,536 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2021-06-17 13:58:35,564 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2021-06-17 13:58:35,564 INFO o.a.j.e.StandardJMeterEngine: Starting 16 threads for group Thread Group.
+2021-06-17 13:58:35,564 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-06-17 13:58:35,565 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=16 ramp-up=0 delayedStart=false
+2021-06-17 13:58:35,565 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2021-06-17 13:58:35,566 INFO o.a.j.s.FileServer: Stored: /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+2021-06-17 13:58:35,566 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2021-06-17 13:58:35,566 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:35,566 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2021-06-17 13:58:35,566 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:35,566 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2021-06-17 13:58:35,566 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2021-06-17 13:58:35,566 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:35,566 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2021-06-17 13:58:35,566 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2021-06-17 13:58:35,567 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:35,567 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2021-06-17 13:58:35,567 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2021-06-17 13:58:35,567 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:35,567 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2021-06-17 13:58:35,567 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2021-06-17 13:58:35,568 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:35,568 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2021-06-17 13:58:35,568 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2021-06-17 13:58:35,568 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2021-06-17 13:58:35,568 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:35,568 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2021-06-17 13:58:35,568 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:35,568 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2021-06-17 13:58:35,568 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2021-06-17 13:58:35,569 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:35,569 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2021-06-17 13:58:35,569 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2021-06-17 13:58:35,569 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:35,569 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2021-06-17 13:58:35,569 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2021-06-17 13:58:35,569 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:35,569 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2021-06-17 13:58:35,570 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2021-06-17 13:58:35,570 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2021-06-17 13:58:35,570 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:35,570 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2021-06-17 13:58:35,570 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:35,570 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2021-06-17 13:58:35,570 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2021-06-17 13:58:35,570 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-06-17 13:58:35,570 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2021-06-17 13:58:35,570 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-06-17 13:58:35,571 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:35,571 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2021-06-17 13:58:35,571 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2021-06-17 13:58:35,571 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:35,571 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2021-06-17 13:58:35,571 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:35,571 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2021-06-17 13:58:35,571 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-06-17 13:58:35,571 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2021-06-17 13:58:43,448 INFO o.a.j.s.FileServer: Set new base='/Users/hieuntse62694/Downloads/Archive/LoadTest'
+2021-06-17 13:58:43,477 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-06-17 13:58:43,477 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-06-17 13:58:43,478 WARN o.a.j.r.ResultCollector: Error creating directories for /stock-count/LoadTest
+2021-06-17 13:58:43,478 WARN o.a.j.r.ResultCollector: Error creating directories for /stock-count/LoadTest
+2021-06-17 13:58:43,478 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2021-06-17 13:58:43,504 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2021-06-17 13:58:43,504 INFO o.a.j.e.StandardJMeterEngine: Starting 16 threads for group Thread Group.
+2021-06-17 13:58:43,504 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-06-17 13:58:43,505 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=16 ramp-up=0 delayedStart=false
+2021-06-17 13:58:43,505 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2021-06-17 13:58:43,506 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2021-06-17 13:58:43,506 INFO o.a.j.s.FileServer: Stored: /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+2021-06-17 13:58:43,506 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2021-06-17 13:58:43,506 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:43,506 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:43,506 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:43,506 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2021-06-17 13:58:43,506 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2021-06-17 13:58:43,506 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2021-06-17 13:58:43,506 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2021-06-17 13:58:43,507 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2021-06-17 13:58:43,507 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:43,507 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2021-06-17 13:58:43,507 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2021-06-17 13:58:43,507 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:43,507 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2021-06-17 13:58:43,507 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2021-06-17 13:58:43,507 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:43,507 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2021-06-17 13:58:43,507 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2021-06-17 13:58:43,507 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:43,508 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2021-06-17 13:58:43,508 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:43,508 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2021-06-17 13:58:43,508 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2021-06-17 13:58:43,508 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:43,508 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2021-06-17 13:58:43,508 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2021-06-17 13:58:43,508 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:43,508 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2021-06-17 13:58:43,508 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2021-06-17 13:58:43,509 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2021-06-17 13:58:43,509 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:43,509 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2021-06-17 13:58:43,509 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:43,509 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2021-06-17 13:58:43,509 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2021-06-17 13:58:43,509 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:43,509 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2021-06-17 13:58:43,509 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2021-06-17 13:58:43,510 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2021-06-17 13:58:43,510 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-06-17 13:58:43,510 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-06-17 13:58:43,510 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:43,510 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2021-06-17 13:58:43,510 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:43,510 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2021-06-17 13:58:43,510 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2021-06-17 13:58:43,510 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:58:43,510 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2021-06-17 13:58:43,510 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-06-17 13:58:43,512 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2021-06-17 13:59:01,717 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-06-17 13:59:01,717 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-06-17 13:59:01,718 WARN o.a.j.r.ResultCollector: Error creating directories for /stock-count/LoadTest
+2021-06-17 13:59:01,718 WARN o.a.j.r.ResultCollector: Error creating directories for /stock-count/LoadTest
+2021-06-17 13:59:01,718 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2021-06-17 13:59:01,744 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2021-06-17 13:59:01,744 INFO o.a.j.e.StandardJMeterEngine: Starting 8 threads for group Thread Group.
+2021-06-17 13:59:01,745 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-06-17 13:59:01,745 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=8 ramp-up=0 delayedStart=false
+2021-06-17 13:59:01,745 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2021-06-17 13:59:01,745 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2021-06-17 13:59:01,746 INFO o.a.j.s.FileServer: Stored: /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+2021-06-17 13:59:01,746 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2021-06-17 13:59:01,746 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:01,746 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:01,746 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2021-06-17 13:59:01,746 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2021-06-17 13:59:01,746 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2021-06-17 13:59:01,746 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:01,746 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2021-06-17 13:59:01,746 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2021-06-17 13:59:01,746 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:01,747 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2021-06-17 13:59:01,747 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2021-06-17 13:59:01,747 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:01,747 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2021-06-17 13:59:01,747 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-06-17 13:59:01,747 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2021-06-17 13:59:01,747 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-06-17 13:59:01,747 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:01,747 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2021-06-17 13:59:01,747 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:01,747 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2021-06-17 13:59:01,747 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2021-06-17 13:59:01,747 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:01,748 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2021-06-17 13:59:01,748 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-06-17 13:59:01,748 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2021-06-17 13:59:03,527 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-06-17 13:59:03,528 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-06-17 13:59:03,529 WARN o.a.j.r.ResultCollector: Error creating directories for /stock-count/LoadTest
+2021-06-17 13:59:03,529 WARN o.a.j.r.ResultCollector: Error creating directories for /stock-count/LoadTest
+2021-06-17 13:59:03,529 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2021-06-17 13:59:03,559 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2021-06-17 13:59:03,559 INFO o.a.j.e.StandardJMeterEngine: Starting 8 threads for group Thread Group.
+2021-06-17 13:59:03,559 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-06-17 13:59:03,559 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=8 ramp-up=0 delayedStart=false
+2021-06-17 13:59:03,560 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2021-06-17 13:59:03,561 INFO o.a.j.s.FileServer: Stored: /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+2021-06-17 13:59:03,560 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2021-06-17 13:59:03,561 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2021-06-17 13:59:03,561 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2021-06-17 13:59:03,561 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:03,561 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:03,561 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:03,561 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2021-06-17 13:59:03,561 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:03,561 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2021-06-17 13:59:03,561 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2021-06-17 13:59:03,561 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2021-06-17 13:59:03,561 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2021-06-17 13:59:03,562 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2021-06-17 13:59:03,562 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:03,562 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2021-06-17 13:59:03,562 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-06-17 13:59:03,562 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:03,562 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-06-17 13:59:03,562 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2021-06-17 13:59:03,562 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2021-06-17 13:59:03,562 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2021-06-17 13:59:03,562 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:03,563 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2021-06-17 13:59:03,563 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:03,563 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2021-06-17 13:59:03,563 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-06-17 13:59:03,563 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2021-06-17 13:59:05,744 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-06-17 13:59:05,744 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-06-17 13:59:05,745 WARN o.a.j.r.ResultCollector: Error creating directories for /stock-count/LoadTest
+2021-06-17 13:59:05,745 WARN o.a.j.r.ResultCollector: Error creating directories for /stock-count/LoadTest
+2021-06-17 13:59:05,746 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2021-06-17 13:59:05,776 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2021-06-17 13:59:05,776 INFO o.a.j.e.StandardJMeterEngine: Starting 8 threads for group Thread Group.
+2021-06-17 13:59:05,776 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-06-17 13:59:05,776 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=8 ramp-up=0 delayedStart=false
+2021-06-17 13:59:05,777 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2021-06-17 13:59:05,777 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2021-06-17 13:59:05,777 INFO o.a.j.s.FileServer: Stored: /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+2021-06-17 13:59:05,777 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2021-06-17 13:59:05,777 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:05,777 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:05,777 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2021-06-17 13:59:05,777 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2021-06-17 13:59:05,777 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2021-06-17 13:59:05,777 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:05,778 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2021-06-17 13:59:05,778 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:05,778 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2021-06-17 13:59:05,778 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2021-06-17 13:59:05,778 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:05,778 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2021-06-17 13:59:05,778 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2021-06-17 13:59:05,778 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-06-17 13:59:05,778 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2021-06-17 13:59:05,778 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-06-17 13:59:05,778 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:05,779 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2021-06-17 13:59:05,779 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:05,779 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2021-06-17 13:59:05,779 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2021-06-17 13:59:05,780 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /stock-count/LoadTest/DATA_LOAD-TEST-2-2-2.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalArgumentException: File DATA_LOAD-TEST-2-2-2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.4.1]
+	... 9 more
+2021-06-17 13:59:05,780 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2021-06-17 13:59:05,780 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-06-17 13:59:05,780 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
